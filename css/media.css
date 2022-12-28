@@ -1,0 +1,319 @@
+@media(max-width:1200){
+    .navbar-brand, .footer-logo {
+        width: 13%;
+    }
+    .get-started-heading {
+        width: 65%;
+    }
+    .get-started-heading h1, .process-heading h1 {
+        font-size: 32px;
+    }
+    .process-heading {
+        width: 75%;
+    }
+}
+@media(max-width:1024px){
+    .navbar-brand, .footer-logo {
+        width: 13%;
+    }
+    .navbar-light .navbar-nav .nav-link, .btn-number {
+        font-size: 14px;
+    }
+    header::before {
+        background-size: 76%;
+    }
+    .header-content h1, .footer-content h1 {
+        font-size: 35px;
+    }
+    .header-content p, .footer-content p {
+        font-size: 15px;
+    }
+    .call-text h2, .accordion-header a, .mark-text h3 {
+        font-size: 20px;
+    }
+    .live-call-item p, .accordion-body, .mark-text p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .mark-icon {
+        width: 32%;
+    }
+    .mark-text {
+        text-align: left;
+    }
+    .process-item{
+        margin-bottom: 60px;
+        padding: 30px 0;
+        min-height: 440px;
+    }
+    .process-item h3 {
+        font-size: 22px;
+    }
+    .process-item p {
+        font-size: 15px;
+        line-height: 30px;
+        padding: 25px;
+    }
+    .get-started-heading {
+        width: 65%;
+    }
+    .get-started-heading h1, .process-heading h1 {
+        font-size: 32px;
+    }
+    .process-heading {
+        width: 75%;
+    }
+    .footer-social-icon {
+        width: 55%;
+    }
+    .footer-logo-part {
+        justify-content: space-between;
+    }
+    .footer-logo-text {
+        width: 75%;
+    }
+    .footer-logo-text ul li p {
+        font-size: 15px;
+    }
+}
+@media(max-width:992px){
+    .navbar-brand, .footer-logo {
+        width: 18%;
+    }
+    .header-height, .footer-height {
+        min-height: 60vh;
+    }
+    .header-content h1, .footer-content h1 {
+        font-size: 32px;
+    }
+    .header-image img {
+        width: 100%;
+    }
+    .footer-image img {
+        width: 100%;
+    }
+    header::before{
+        background-size: 75%;
+    }
+    .live-call-height {
+        min-height: 75vh;
+    }
+    .live-call-image img {
+        width: 100%;
+        margin-left: -46px;
+    }
+    .live-call-item{
+        height: 350px;
+        padding: 30px 20px 50px;
+    }
+    .mark-icon {
+        width: 52%;
+    }
+    .process-item{
+        margin-bottom: 60px;
+        padding: 30px 0;
+        min-height: 500px;
+    }
+    .process-item p {
+        font-size: 15px;
+        line-height: 25px;
+        padding: 25px;
+    }
+    .service-item {
+        padding: 25px 10px;
+        min-height: 400px;
+    }
+    .service-item h3{
+        font-size: 17px;
+        padding-bottom: 8px;
+    }
+    .service-item ul li{
+        font-size: 13px;
+    }
+    .footer-logo-text ul li p {
+        font-size: 14px;
+    }
+}
+@media(max-width:767px){
+    .navbar-brand {
+        width: 22%;
+    }
+    .header-height{
+        text-align: center;
+    }
+    header::before{
+    right: -17px;
+    top: -50px;
+    }
+    .header-image{
+        display: none;
+    }
+    .service-item ul li{
+        font-size: 15px;
+    }
+    .mark-icon {
+        width: 20%;
+    }
+    .mark-text {
+        text-align: left;
+    }
+    .get-started-item, .get-started-item-two{
+        min-height: 300px;
+    }
+    .get-started-image {
+        text-align: center !important;
+    }
+    .process-item{
+        margin-bottom: 60px;
+        padding: 30px 0;
+        min-height: 540px;
+    }
+    .process-item p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .footer-content{
+        display: none;
+    }
+    .footer-image {
+        text-align: center;
+    }
+    .footer-social-icon {
+        display: flex;
+        justify-content: center;
+    }
+    .footer-logo-part{
+        display: none;
+    }
+    footer::before{
+        background-size: 75%;
+    }
+    .footer-copyright a, .footer-privacy p{
+        font-size: 13px;
+    }
+    .footer-copyright {
+        display: inline-block;
+    }
+    .footer-bottom{
+        align-items: center;
+    }
+    .navbar-toggler{
+        padding: 0;
+    }
+    .navbar-light .navbar-toggler {
+        color: transparent;
+        border-color: transparent;
+    }
+    .navbar-toggler:focus {
+        box-shadow: 0;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        text-align: center;
+        padding-top: 15px;
+        font-size: 17px;
+        color: #0961b1;
+    }
+    .nav-item{
+        text-align: center;
+    }
+    .btn-number{
+        border: 1px solid #0961b1;
+        color: #0961b1;
+        margin-top: 15px;
+    }
+    .service-item {
+        margin-bottom: 20px;
+    }
+}
+@media(max-width:575px){
+    .header-content h1 {
+        font-size: 38px;
+    }
+    .header-content p {
+        font-size: 15px;
+    }
+    .process-item{
+        margin-bottom: 60px;
+        min-height: 395px;
+        padding: 30px 20px;
+    }
+    .process-item p {
+        font-size: 16px;
+        line-height: 32px;
+    }
+    footer::before{
+        background-size: 80%;
+    }
+}
+@media(max-width:425px){
+    .header-content h1 {
+        font-size: 33px;
+    }
+    .header-content p {
+        font-size: 15px;
+    }
+    .mark-icon {
+        width: 55%;
+    }
+    .service-item {
+        margin-bottom: 20px;
+    }
+    .accordion-header a{
+        font-size: 20px;
+    }
+    .footer-social-icon{
+        margin-top: 20px;
+    }
+    .footer::before{
+        right: -30px;
+        bottom: -10px;
+    }
+    .footer-social-icon{
+        width:100%;
+    }
+    footer::before{
+        background-size: 90%;
+    }
+}
+@media(max-width:375px){
+    .navbar-brand {
+        width: 25%;
+    }
+    .header-content h1 {
+        font-size: 30px;
+    }
+    .footer-social-icon ul li p {
+        font-size: 14px;
+        margin-left: 10px;
+    }
+    header::before {
+        right: 0px;
+        top: 0px;
+    }
+    .footer-social-icon{
+        width:100%;
+    }
+    footer::before{
+        background-size: 90%;
+    }
+}
+@media(max-width:320px){
+    .mark-icon {
+        width: 80%;
+    }
+    .accordion-header a {
+        font-size: 18px;
+    }
+    .footer-social-icon {
+        margin-top: 15px;
+    }
+    .service-item ul li {
+        font-size: 14px;
+    }
+    .footer-social-icon{
+        width:100%;
+    }
+    .get-started-heading h1, .process-heading h1{
+        font-size: 30px;
+    }
+}
